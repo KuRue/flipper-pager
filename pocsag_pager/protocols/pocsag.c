@@ -7,8 +7,8 @@
 #define TAG "POCSAG"
 
 static const SubGhzBlockConst pocsag_const = {
-    .te_short = 833,
-    .te_delta = 100,
+    .te_short = 1600,
+    .te_delta = 200,
 };
 
 // Minimal amount of sync bits (interleaving zeros and ones)
